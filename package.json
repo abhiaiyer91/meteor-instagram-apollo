@@ -1,0 +1,34 @@
+{
+  "name": "instagram",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "apollo-client": "^0.1.6",
+    "casual": "^1.5.2",
+    "cls-bluebird": "^1.0.1",
+    "continuation-local-storage": "^3.1.7",
+    "express": "^4.13.4",
+    "graphql": "^0.5.0",
+    "graphql-tools": "^0.3.13",
+    "http-proxy-middleware": "^0.14.0",
+    "instagram-node": "^0.5.8",
+    "invariant": "^2.2.1",
+    "meteor-node-stubs": "~0.2.0",
+    "mysql": "^2.10.2",
+    "pg": "^4.5.5",
+    "pg-hstore": "^2.3.2",
+    "pg-native": "^1.10.0",
+    "react": "^15.0.2",
+    "react-addons-pure-render-mixin": "^15.0.1",
+    "react-apollo": "^0.2.0",
+    "react-burger-menu": "^1.8.1",
+    "react-dom": "^15.0.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "request-promise": "^3.0.0",
+    "sequelize": "^3.22.0"
+  }
+}
