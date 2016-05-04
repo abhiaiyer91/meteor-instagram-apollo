@@ -33,7 +33,7 @@ function App({ instagramData }) {
 function mapQueriesToProps({ ownProps, state }) {
   return {
     instagramData: {
-      query: `
+      query: gql`
           query getKeywords($keywords: String) {
             data(keywords: $keywords)  {
              images
